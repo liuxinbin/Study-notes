@@ -108,6 +108,57 @@ filter: blur(10px);
 		<img src="https://raw.githubusercontent.com/liuxinbin/Study-notes/master/img/stickyfooters.png" width="250" />
 		<img src="https://github.com/liuxinbin/Study-notes/blob/master/img/stickyfooter01.png?raw=true" width="250" />
 	</div>
+	
+## flex布局
+1、
+```
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>flex布局</title>
+	<style type="text/css">
+		body {
+			background: rgba(7, 17, 27, 0.8);
+			color: #fff;
+		}
+		
+		.title {
+			display: flex;
+			width: 80%;
+			margin: 28px auto 24px auto;
+		}
+		
+		.line {
+			flex: 1;
+			position: relative;
+			top: -6px;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		}
+		
+		.text {
+			padding: 0 12px;
+			font-weight: 700;
+			font-size: 14px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="title">
+		<div class="line"></div>
+		<div class="text">标题</div>
+		<div class="line"></div>
+	</div>
+</body>
+
+</html>
+```
+***img***
+	<div align="center">
+		<img src="https://raw.githubusercontent.com/liuxinbin/Study-notes/master/img/stickyfooters.png" width="250" />
+	</div>
 ***
 
 
