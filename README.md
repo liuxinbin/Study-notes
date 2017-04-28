@@ -1,6 +1,6 @@
 # 学习笔记
 ## CSS
- >### 手机端1像素问题
+ >#### 手机端1像素问题
 
 ```
 @media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
@@ -15,20 +15,20 @@
       -webkit-transform: scaleY(0.5)
       transform: scaleY(0.5)
 ```
-> ### 文字过多处理
+> #### 文字过多处理
 
 ```
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
 ```
-> ### 背景虚化
+> #### 背景虚化
 
 ```
 z-index: -1;
 filter: blur(10px);
 ```
-> ### sticky footer
+> #### sticky footer
 
 ```
 <!DOCTYPE html>
@@ -102,15 +102,17 @@ filter: blur(10px);
 
 </html>
 ```
-![image](C:\Users\Administrator\Desktop\stickyfooters.png)
+	<div align="center">
+		<img src="E:\studynotes\Study-notes\stickyfooters.png" width="250" />
+	</div>
 ***
 
 
 
 
 
-### VUE
-> .eslintrc.js文件配置
+## VUE
+> #### .eslintrc.js文件配置
 
 ```
  // 文件末尾强制换行
