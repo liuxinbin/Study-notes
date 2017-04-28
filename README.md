@@ -106,7 +106,7 @@ filter: blur(10px);
 ***img***
 	<div align="center">
 		<img src="https://raw.githubusercontent.com/liuxinbin/Study-notes/master/img/stickyfooters.png" width="250" />
-		<img src="https://raw.githubusercontent.com/liuxinbin/Study-notes/master/img/stickyfooters.png" width="250" />
+		<img src="https://github.com/liuxinbin/Study-notes/blob/master/img/stickyfooter01.png?raw=true" width="250" />
 	</div>
 ***
 
