@@ -103,7 +103,7 @@ filter: blur(10px);
 </html>
 ```
 	<div align="center">
-		<img src="E:\studynotes\Study-notes\stickyfooters.png" width="250" />
+		<img src="Study-notes/img/stickyfooters.png" width="250" />
 	</div>
 ***
 
