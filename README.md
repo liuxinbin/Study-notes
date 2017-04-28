@@ -102,9 +102,10 @@ filter: blur(10px);
 
 </html>
 ```
-img
+
+***img***
 	<div align="center">
-		<img src="Study-notes/img/stickyfooters.png" width="250" />
+		<img src="https://raw.githubusercontent.com/liuxinbin/Study-notes/master/img/stickyfooters.png" width="250" />
 	</div>
 ***
 
