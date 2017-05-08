@@ -1,6 +1,6 @@
 # <span id="top">学习笔记</span> 
 
-### 目录
+## 目录
 
 - **<a href="#html">html</a>**
   - 手机端head要加
@@ -19,14 +19,14 @@
 
 
 ## <span id="html">html</span> 
-> ####  手机端head要加
+> ###  手机端head要加
 
 ```
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 ```
 
 ## <span id="css">css</span>
- >#### 手机端1像素问题
+ >### 手机端1像素问题
 
 ```
 @media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
@@ -41,20 +41,20 @@
       -webkit-transform: scaleY(0.5)
       transform: scaleY(0.5)
 ```
-> #### 文字过多处理
+> ### 文字过多处理
 
 ```
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
 ```
-> ####  背景虚化
+> ###  背景虚化
 
 ```
 z-index: -1;
 filter: blur(10px);
 ```
-> ####  让footer固定在页面底部(sticky footer)
+> ###  让footer固定在页面底部(sticky footer)
 
 ```
 <!DOCTYPE html>
@@ -136,7 +136,7 @@ filter: blur(10px);
 	</div>
 	
 ## <span id="flex">flex</span>
-> #### 标题中心
+> ### 标题中心
 ```
 <!doctype html>
 <html lang="en">
@@ -188,7 +188,7 @@ filter: blur(10px);
 ***
 
 ## <span id="vue">VUE</span>
-> #### vue-cli安装 
+> ### vue-cli安装 
 
 ```
 cmd
@@ -203,7 +203,7 @@ npm run dev
 
 ```
 
-> #### .eslintrc.js文件配置
+> ### .eslintrc.js文件配置
 
 ```
  // 文件末尾强制换行
