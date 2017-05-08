@@ -187,8 +187,8 @@ filter: blur(10px);
 	</div>
 ***
 
-## <span id="vue">VUE</span>
-> #### <span id="vue-1">vue-cli安装 </span>
+## <span id="vue-1">VUE</span>
+> #### <span id="vue">vue-cli安装 </span>
 
 ```
 cmd
