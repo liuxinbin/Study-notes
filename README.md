@@ -1,12 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	
+</head>
+
+<body>
+	
 # <span id="top">学习笔记</span> 
 
 ### 目录
 
 - **<a href="#html">html</a>**
-  - <a href="#htmla">手机端head要加</a>
+  - 手机端head要加
 - **[css](#css)**
-	1. [手机端1像素问题](#css-1)
-	2. [文字过多处理](#css-2)
+	1. 手机端1像素问题
+	2. [文字过多处理
 	3. [背景虚化](#css-3)
 	3. [让footer固定在页面底部(sticky footer)](#css-4)
 - **<a href="#flex">flex</a>**
@@ -225,3 +235,7 @@ npm run dev
 </div>
  
 
+
+</body>
+
+</html>
