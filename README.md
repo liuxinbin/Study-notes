@@ -9,7 +9,7 @@
 	2. [文字过多处理](#css-2)
 	3. [背景虚化](#css-3)
 	3. [让footer固定在页面底部(sticky footer)](#css-4)
-- **<a href="#flex">flex布局</a>**
+- **<a href="#flex">flex</a>**
 	1. [标题中心](#flex-1)
 - **[vue](#vue)**
 	1. [vue](#vue)
