@@ -12,7 +12,7 @@
 - **<a href="#flex">flex布局</a>**
 	1. [标题中心](#flex-1)
 - **[vue](#vue)**
-	1. [vue-cli安装](#vue-1)
+	1. [vue](#vue)
 	2. [.eslintrc.js文件配置](#vue-2)
 	
 ---
