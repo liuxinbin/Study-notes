@@ -1,4 +1,11 @@
 # 学习笔记
+## html 
+> #### 手机端head要加
+
+```
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+```
+
 ## CSS
  >#### 手机端1像素问题
 
@@ -166,6 +173,21 @@ filter: blur(10px);
 
 
 ## VUE
+> #### vue-cli安装
+
+```
+cmd
+cd 需要创建项目的文件夹
+npm i vue-cli -g
+输入vue可查看是否安装成功
+输入vue list查看官方模板打包工具
+vue init webpack -s 初始化
+设置好后
+npm i
+npm run dev
+
+```
+
 > #### .eslintrc.js文件配置
 
 ```
@@ -179,6 +201,7 @@ filter: blur(10px);
 "quotes": 0,
 //if后不用空格
 'keyword-spacing':0,
-'comma-dangle':0
+'comma-dangle':0,
+"brace-style":0
 ```
 
