@@ -5,15 +5,15 @@
 - **<a href="#html">html</a>**
   - 手机端head要加
 - **[css](#css)**
-	1. 手机端1像素问题
-	2. 文字过多处理
-	3. 背景虚化
-	3. 让footer固定在页面底部
+	- 手机端1像素问题
+	- 文字过多处理
+	- 背景虚化
+	- 让footer固定在页面底部
 - **<a href="#flex">flex</a>**
-	1. 标题中心
+	- 标题中心
 - **[vue](#vue)**
-	1. vue-cli安装
-	2. .eslintrc.js文件配置
+	- vue-cli安装
+	- .eslintrc.js文件配置
 	
 ---
 
