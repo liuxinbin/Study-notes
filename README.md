@@ -3,13 +3,13 @@
 ### 目录
 
 - **<a href="#html">html</a>**
-  - <a href="#html-1">手机端head要加</a>
+  - <a href="#htmla">手机端head要加</a>
 - **[css](#css)**
 	1. [手机端1像素问题](#css-1)
 	2. [文字过多处理](#css-2)
 	3. [背景虚化](#css-3)
 	3. [让footer固定在页面底部(sticky footer)](#css-4)
-- **[flex](#flex)**
+- **<a href="#flex">flex布局</a>**
 	1. [标题中心](#flex-1)
 - **[vue](#vue)**
 	1. [vue-cli安装](#vue-1)
@@ -19,7 +19,7 @@
 
 
 ## <span id="html">html</span> 
-> ####  <span id="html-1">手机端head要加</span>
+> ####  <span id="htmla">手机端head要加</span>
 
 ```
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
