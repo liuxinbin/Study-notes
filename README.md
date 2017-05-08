@@ -1,8 +1,9 @@
 # <span id="top">学习笔记</span> 
 
 ### 目录
+
 - **[html](#html)**
-	1. [手机端head要加](#html-1)
+  - [手机端head要加](#html01)
 - **[css](#css)**
 	1. [手机端1像素问题](#css-1)
 	2. [文字过多处理](#css-2)
@@ -18,7 +19,7 @@
 
 
 ## <span id="html">html</span> 
-> ####  <span id="html-1">手机端head要加</span>
+> ####  <span id="html01">手机端head要加</span>
 
 ```
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
@@ -218,7 +219,7 @@ npm run dev
 'comma-dangle':0,
 "brace-style":0
 ```
-<div align="center" style="background: red;">
+<div align="center">
 		<a href="#top">返回顶部</a>
 </div>
  
