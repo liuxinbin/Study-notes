@@ -1,9 +1,5 @@
 # <span id="top">学习笔记</span> 
 
-<div style="width: 50px; height: 50px; background: rgba(7,17,27,0.5);position: fixed; bottom: 20px; right: 20px; border-radius: 10px;">
-	<a href="#top" style="display: block; width: 100%; height: 50px; line-height: 50px; text-align: center; text-decoration: none; color: #fff;">TOP</a>
-</div>
-
 ### 目录
 - **[html](#html)**
 	1. [手机端head要加](#html-1)
@@ -222,4 +218,8 @@ npm run dev
 'comma-dangle':0,
 "brace-style":0
 ```
+<div align="center">
+		<a href="#top">返回顶部</a>
+</div>
+ 
 
