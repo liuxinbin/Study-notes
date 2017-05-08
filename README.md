@@ -1,13 +1,3 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8" />
-	
-</head>
-
-<body>
-	
 # <span id="top">学习笔记</span> 
 
 ### 目录
@@ -16,28 +6,27 @@
   - 手机端head要加
 - **[css](#css)**
 	1. 手机端1像素问题
-	2. [文字过多处理
-	3. [背景虚化](#css-3)
-	3. [让footer固定在页面底部(sticky footer)](#css-4)
+	2. 文字过多处理
+	3. 背景虚化
+	3. 让footer固定在页面底部
 - **<a href="#flex">flex</a>**
-	1. [标题中心](#flex-1)
+	1. 标题中心
 - **[vue](#vue)**
-	1. [vue](#vue)
-	2. [.eslintrc.js文件配置](#vue-2)
+	1. vue-cli安装
+	2. .eslintrc.js文件配置
 	
 ---
 
 
 ## <span id="html">html</span> 
 > ####  手机端head要加
-<span id="htmla"></span>
 
 ```
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 ```
 
 ## <span id="css">css</span>
- >#### <span id="css-1">手机端1像素问题</span>
+ >#### 手机端1像素问题
 
 ```
 @media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
@@ -52,20 +41,20 @@
       -webkit-transform: scaleY(0.5)
       transform: scaleY(0.5)
 ```
-> #### <span id="css-2">文字过多处理</span>
+> #### 文字过多处理
 
 ```
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
 ```
-> ####  <span id="css-3">背景虚化</span>
+> ####  背景虚化
 
 ```
 z-index: -1;
 filter: blur(10px);
 ```
-> ####  <span id="css-4">让footer固定在页面底部(sticky footer)</span>
+> ####  让footer固定在页面底部(sticky footer)
 
 ```
 <!DOCTYPE html>
@@ -147,7 +136,7 @@ filter: blur(10px);
 	</div>
 	
 ## <span id="flex">flex</span>
-> #### <span id="flex-1">标题中心</span>
+> #### 标题中心
 ```
 <!doctype html>
 <html lang="en">
@@ -198,8 +187,8 @@ filter: blur(10px);
 	</div>
 ***
 
-## <span id="vue-1">VUE</span>
-> #### <span id="vue">vue-cli安装 </span>
+## <span id="vue">VUE</span>
+> #### vue-cli安装 
 
 ```
 cmd
@@ -214,7 +203,7 @@ npm run dev
 
 ```
 
-> #### <span id="vue-2">.eslintrc.js文件配置</span>
+> #### .eslintrc.js文件配置
 
 ```
  // 文件末尾强制换行
@@ -235,7 +224,3 @@ npm run dev
 </div>
  
 
-
-</body>
-
-</html>
