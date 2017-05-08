@@ -19,7 +19,8 @@
 
 
 ## <span id="html">html</span> 
-> ####  <span id="htmla">手机端head要加</span>
+> ####  手机端head要加
+<span id="htmla"></span>
 
 ```
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
