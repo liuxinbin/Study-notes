@@ -135,7 +135,7 @@ filter: blur(10px);
 		<img src="https://github.com/liuxinbin/Study-notes/blob/master/img/stickyfooter01.png?raw=true" width="250" />
 	</div>
 	
-## <span id="flex">flex</span>布局
+## <span id="flex">flex</span>
 > #### <span id="flex-1">标题中心</span>
 ```
 <!doctype html>
