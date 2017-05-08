@@ -1,13 +1,64 @@
-# 学习笔记
-## html 
-> #### 手机端head要加
+# <span id="top">学习笔记</span> 
+<style type="text/css">
+.top {
+	width: 50px;
+	height: 50px;
+	background: rgba(7, 17, 27, 0.5);
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.top > a {
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.top > a:hover {
+	background: rgba(7, 17, 27, 0.9);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+</style>
+<div class="top">
+	<a href="#top">TOP</a>
+</div>
+### 目录
+- **[html](#html)**
+	1. [手机端head要加](#html-1)
+- **[css](#css)**
+	1. [手机端1像素问题](#css-1)
+	2. [文字过多处理](#css-2)
+	3. [背景虚化](#css-3)
+	3. [让footer固定在页面底部(sticky footer)](#css-4)
+- **[flex](#flex)**
+	1. [标题中心](#flex-1)
+- **[vue](#vue)**
+	1. [vue-cli安装](#vue-1)
+	2. [.eslintrc.js文件配置](#vue-2)
+	
+---
+
+
+## <span id="html">html</span> 
+> ####  <span id="html-1">手机端head要加</span>
 
 ```
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 ```
 
-## CSS
- >#### 手机端1像素问题
+## <span id="css">css</span>
+ >#### <span id="css-1">手机端1像素问题</span>
 
 ```
 @media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
@@ -22,20 +73,20 @@
       -webkit-transform: scaleY(0.5)
       transform: scaleY(0.5)
 ```
-> #### 文字过多处理
+> #### <span id="css-2">文字过多处理</span>
 
 ```
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
 ```
-> #### 背景虚化
+> ####  <span id="css-3">背景虚化</span>
 
 ```
 z-index: -1;
 filter: blur(10px);
 ```
-> ####  让footer固定在页面底部(sticky footer)
+> ####  <span id="css-4">让footer固定在页面底部(sticky footer)</span>
 
 ```
 <!DOCTYPE html>
@@ -116,8 +167,8 @@ filter: blur(10px);
 		<img src="https://github.com/liuxinbin/Study-notes/blob/master/img/stickyfooter01.png?raw=true" width="250" />
 	</div>
 	
-## flex布局
-1、
+## <span id="flex">flex布局</span>
+> #### <span id="flex-1">标题中心</span>
 ```
 <!doctype html>
 <html lang="en">
@@ -168,12 +219,8 @@ filter: blur(10px);
 	</div>
 ***
 
-
-
-
-
-## VUE
-> #### vue-cli安装
+## <span id="vue">VUE</span>
+> #### <span id="vue-1">vue-cli安装 </span>
 
 ```
 cmd
@@ -188,7 +235,7 @@ npm run dev
 
 ```
 
-> #### .eslintrc.js文件配置
+> #### <span id="vue-2">.eslintrc.js文件配置</span>
 
 ```
  // 文件末尾强制换行
